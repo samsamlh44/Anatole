@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ANTS Guard",
+  "version": "1.0",
+  "description": "Alerte les utilisateurs lorsqu'ils visitent un site non officiel pour les démarches administratives.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
