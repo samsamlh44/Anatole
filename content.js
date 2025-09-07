@@ -1,11 +1,11 @@
-// 🔒 Liste blanche des domaines officiels
+// Liste blanche des domaines officiels
 const trustedDomains = [
   "ants.gouv.fr",
   "service-public.fr",
   ".gouv.fr",
 ];
 
-// 🔑 Mots-clés de recherche administrative
+// Mots-clés de recherche administrative
 const keywords = [
   "passeport",
   "carte identité",
@@ -15,12 +15,12 @@ const keywords = [
   "acte de naissance"
 ];
 
-// 🔍 Vérification si on est sur une page de recherche Google
+// Vérification si on est sur une page de recherche Google
 const isGoogleSearchPage =
   window.location.hostname.includes("google.") &&
   window.location.pathname === "/search";
 
-// 🔍 Extraction de la requête
+// Extraction de la requête
 let isRelevantSearch = true; // Par défaut, on active les bulles sur les autres sites
 if (isGoogleSearchPage) {
   const searchParams = new URLSearchParams(window.location.search);
@@ -28,7 +28,7 @@ if (isGoogleSearchPage) {
   isRelevantSearch = keywords.some(keyword => query.includes(keyword));
 }
 
-// 🧠 Fonction pour afficher la bulle
+// Fonction pour afficher la bulle
 function showTooltip(element, message) {
   const tooltip = document.createElement("div");
   tooltip.textContent = message;
@@ -58,7 +58,7 @@ function removeTooltip() {
   }
 }
 
-// 🖱️ Activation des bulles uniquement si la recherche est pertinente
+// Activation des bulles uniquement si la recherche est pertinente
 if (isRelevantSearch) {
   document.querySelectorAll("a").forEach(link => {
     link.addEventListener("mouseenter", () => {
