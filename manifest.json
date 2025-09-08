@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ANTS Guard",
+  "name": "Anatole",
   "version": "1.0",
-  "description": "Alerte les utilisateurs lorsqu'ils visitent un site non officiel pour les démarches administratives.",
+  "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
   "permissions": ["tabs", "scripting"],
   "host_permissions": ["<all_urls>"],
   "background": {
