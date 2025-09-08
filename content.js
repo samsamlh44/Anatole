@@ -33,7 +33,7 @@ function showTooltip(element, message) {
   const tooltip = document.createElement("div");
   tooltip.textContent = message;
   tooltip.style.position = "absolute";
-  tooltip.style.background = "#dbaf00ff";
+  tooltip.style.background = "#38b6ff";
   tooltip.style.border = "1px solid #ccc";
   tooltip.style.padding = "6px 10px";
   tooltip.style.borderRadius = "6px";
