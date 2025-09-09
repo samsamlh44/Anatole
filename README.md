@@ -6,8 +6,8 @@ Cette extension Chrome a pour objectif de protéger les utilisateurs contre les 
 
 Lorsqu'un utilisateur effectue une recherche Google liée à une démarche administrative, l'extension affiche une **bulle d'information** au survol des liens présents dans les résultats :
 
-- ✅ Si le lien mène vers un site officiel (ex. `ants.gouv.fr`, `service-public.fr`), la bulle indique que le site est reconnu.
-- ⚠️ Si le lien mène vers un site non officiel, la bulle avertit l'utilisateur du risque de frais supplémentaires.
+- ✅ Si le lien mène vers un site officiel (ex. `ants.gouv.fr`, `service-public.fr`), la bulle indique que le site est reconnu et prend la couleur verte.
+- ⚠️ Si le lien mène vers un site non officiel, la bulle avertit l'utilisateur du risque de frais supplémentaires et prend la couleur jaune.
 
 ## 🔍 Détection intelligente
 
@@ -47,7 +47,9 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 ## 👨‍💻 Auteur
 
-Développé par Sam, passionné par la transparence numérique et la protection des citoyens face aux arnaques administratives.
+Développé par Samuel BOULLARD, fondateur de Kracknet_Lab, passionné par la transparence numérique et la protection des citoyens face aux arnaques administratives.
+
+
 
 ---
 
