@@ -33,7 +33,13 @@ function showTooltip(element, message) {
   const tooltip = document.createElement("div");
   tooltip.textContent = message;
   tooltip.style.position = "absolute";
-  tooltip.style.background = "#38b6ff";
+  // Détermine la couleur selon le message
+if (message.includes("✅")) {
+  tooltip.style.background = "#4CAF50"; // Vert pour site officiel
+} else {
+  tooltip.style.background = "#facc00ff"; // Jaune pour site non reconnu
+}
+
   tooltip.style.border = "1px solid #ccc";
   tooltip.style.padding = "6px 10px";
   tooltip.style.borderRadius = "6px";
