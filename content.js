@@ -37,7 +37,7 @@ function showTooltip(element, message) {
 if (message.includes("✅")) {
   tooltip.style.background = "#4CAF50"; // Vert pour site officiel
 } else {
-  tooltip.style.background = "#facc00ff"; // Jaune pour site non reconnu
+  tooltip.style.background = "#faa200ff"; // Jaune pour site non reconnu
 }
 
   tooltip.style.border = "1px solid #ccc";
