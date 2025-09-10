@@ -1,0 +1,10 @@
+# Ignorer le dossier de publication
+release/
+
+# Ignorer les fichiers temporaires
+*.log
+*.tmp
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
