@@ -3,8 +3,12 @@
   "name": "Anatole",
   "version": "1.0",
   "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
-  "permissions": ["tabs", "scripting"],
-  "host_permissions": ["<all_urls>"],
+  "host_permissions": [
+    "https://www.google.com/*",
+    "https://www.google.fr/*",
+    "https://www.bing.com/*",
+    "https://search.yahoo.com/*",
+    "https://duckduckgo.com/*"],
   "background": {
     "service_worker": "background.js"
   },
