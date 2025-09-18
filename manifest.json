@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Anatole",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
   "host_permissions": [
     "https://www.google.com/*",
