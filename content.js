@@ -12,7 +12,10 @@ const keywords = [
   "carte d'identité",
   "carte d’identité",
   "carte grise",
-  "acte de naissance"
+  "acte de naissance",
+  "permis de conduire",
+  "immatriculation",
+  "ANTS"
 ];
 
 // Vérification si on est sur une page de recherche Google
