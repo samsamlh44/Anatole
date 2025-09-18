@@ -16,6 +16,9 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
   - `carte d'identité`
   - `carte grise`
   - `acte de naissance`
+  - `permis de conduire`
+  - `immatriculation`
+  - `ANTS`
 - Filtrage des liens internes à Google (images, actualités, pagination, etc.) et informatifs (ex. Wikipedia).
 
 ## 🧠 Technologies utilisées
@@ -36,18 +39,15 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 - La liste des sites officiels est définie dans `trustedDomains` (dans `content.js`).
 - Les mots-clés de recherche sont définis dans `keywords`.
-- Les liens ignorés sont listés dans `excludedPatterns`.
 
 ## 📌 À venir
 
-- Interface de configuration utilisateur
 - Badge visuel à côté des liens officiels
-- Version mobile-friendly
 - Option de signalement de sites suspects
 
 ## 👨‍💻 Auteur
 
-Développé par Samuel BOULLARD, fondateur de Kracknet_Lab, passionné par la transparence numérique et la protection des citoyens face aux arnaques administratives.
+Développé par Samuel BOULLARD, passionné par la transparence numérique et la protection des citoyens face aux arnaques administratives.
 
 
 
