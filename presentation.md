@@ -35,6 +35,8 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 **Note** : A l'installation de l'extension, une page html s'ouvre dans le navigateur. Cette page rappelle notamment le prix des diifférents timbres fiscaux et les principaux sites web officiels pour les démarches administratives.
 
+Lien vers la page du Chrome Web Store : https://chromewebstore.google.com/detail/anatole/bgmplhpmpclongfibkibadpffbppocdg?authuser=0&hl=fr
+
 ## 🛠️ Personnalisation
 
 - La liste des sites officiels est définie dans `trustedDomains` (dans `content.js`).
