@@ -1,67 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <div style="text-align: center; margin-top: 40px;">
-  <img src="icons/logo_anatole.png" alt="Logo Anatole" width="120" height="120" style="border-radius: 12px;">
-  <h2 style="font-family: sans-serif; color: #333; margin-top: 10px;">
-    Anatole – L’extension citoyenne
-  </h2>
-</div>
+  <!--Affichage du logo et du titre-->
+  <div class="header"> <!--En-tête avec le logo-->
+      <img src="icons/logo_anatole_light.png" alt="Logo Anatole" width="120" height="120" style="border-radius: 12px;">
+  </div>
+    <h1> <!--Titre principal-->
+    Anatole, l’extension citoyenne
+    </h1>
+
+<!--Lien vers CSS-->
+  <link rel="stylesheet" href="style-welcome.css">
 
 <head>
   <meta charset="UTF-8">
+  <!--Titre de l'onglet-->
   <title>Bienvenue sur Anatole</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #000000;
-      padding: 2em;
-      line-height: 1.6;
-      color: #a8a8a8;
-    }
-    h1 {
-      color: #38b6ff;
-    }
-    .section {
-      margin-bottom: 2em;
-    }
-    ul {
-      padding-left: 1.2em;
-    }
-    a {
-      color: #38b6ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
-  <h1>Bienvenue sur Anatole</h1>
+  <!--Titre dans la page-->
+  <h2>Bienvenue sur Anatole !</h2>
 
-  <div class="section">
+  <div class="section"> <!--Description de l'extension-->
     <p><strong>Anatole</strong> est une extension qui vous aide à repérer les sites officiels pour vos démarches administratives en ligne.</p>
     <p>Elle est totalement gratuite, sans publicité et fonctionne localement dans votre navigateur, sans collecte de données personnelles.</p>
   </div>
+<!--Informations complémentaires, rappel des tarifs-->
+  <div class="titre-section">
+    <h3>Combien coûte une carte d'identité ou un passeport ? Et pour les actes et la carte grise ?</h3>
+  </div>
 
   <div class="section">
-    <h2>ℹ️ Combien coûte une carte d'identité ou un passeport ? Et pour les actes et la carte grise ?</h2>
     <p>La Carte Nationale d'Identité est gratuite en France. Un timbre fiscal de 25 euros est requis uniquement en cas de perte ou de vol.</p>
     <p>Le passeport coûte 86 euros pour les majeurs (18 ans), 42 euros pour les mineurs de 15 à 17 ans et 17 euros pour les mineurs de moins de 15 ans.</p>
-    <p>Vous pouvez acheter le timbre fiscal dans un débit de tabac ou en ligne sur https://timbres.impots.gouv.fr</p>
-  </div>
-    
-  <div class="section">
+    <p>Vous pouvez acheter un timbre fiscal dans un débit de tabac ou en ligne sur <a href="https://timbres.impots.gouv.fr/" target="_blank">timbres.impots.gouv.fr</a>.</p>
+    <p>La carte grise (certificat d'immatriculation) est payante et son coût dépend de plusieurs facteurs, notamment la puissance fiscale du véhicule, son âge, et la région où vous habitez. 
+    <p>Vous pouvez estimer le coût de votre carte grise sur le site officiel <a href="https://www.service-public.fr/particuliers/vosdroits/R12106" target="_blank">service-public.fr</a>. En revanche, le changement d'adresse est gratuit.</p>
     <p>Une copie d'acte d'état civil est toujours gratuit.</p>
   </div>
+<!--Fin des informations complémentaires-->
 
+  <div class="titre-section">
+    <h3>Pourquoi Anatole ?</h3>
+  </div>
   <div class="section">
-    <h2>🔍 Pourquoi Anatole ?</h2>
-    <p>De nombreux sites non officiels peuvent vous facturer des frais injustifiés ou vous induire en erreur. Anatole vous aide à identifier les bons portails, simplement et rapidement.</p>
+    <p>De nombreux sites non officiels vous proposent de réaliser vos démarches en votre nom, moyennant des frais élevés et injustifiés. Anatole vous aide à distinguer les sites officiels, simplement et rapidement, et vous sécurise dans vos démarches en ligne.</p>
   </div>
 
-  <div class="section">
-    <h2>📌 Sites officiels utiles</h2>
+  <!--Liens utiles-->
+  <div class="titre-section">
+    <h3>Sites officiels utiles</h3>
     <ul>
       <li><a href="https://www.service-public.fr" target="_blank">Service-Public.fr</a></li>
       <li><a href="https://www.ants.gouv.fr" target="_blank">ANTS</a></li>
@@ -71,9 +58,13 @@
       <li><a href="https://www.france-services.gouv.fr" target="_blank">France Services</a></li>
     </ul>
   </div>
+<!--Fin des liens utiles-->
 
-  <div class="section">
-    <p>Merci d’avoir installé Anatole. Pour toute suggestion ou retour, vous pouvez nous contacter via la page dédiée.</p>
+<!--Remerciements et contact-->
+  <div class="merci">
+    <p>Merci d’avoir installé Anatole. Pour toute suggestion ou retour, vous pouvez me contacter via la page dédiée ou par mail à 
+      <b href="mailto:contact@anatole.fr">contact@samsamdev.fr</b>.
+    </p>
   </div>
 </body>
 </html>

@@ -1,0 +1,60 @@
+.header { /* Style pour le logo */
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1 { /* Style pour le titre principal */
+  color: #38b6ff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section { /* Style pour le corps de la page */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 20px;
+  background-color: #ffffff; /* Couleur de fond de la page */
+  color: #000000; /* Couleur du texte */
+}
+h2 { /* Style pour le sous-titre */
+  color: #38b6ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.titre-section { /* Style pour les titres de section */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #38b6ff;
+  text-align: left;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+a { /* Style pour les liens utiles */
+  color: #1e05ad;
+  font-size: 17px;
+  text-decoration: none;
+}
+a:hover { /* Style pour les liens utiles au survol */
+  text-decoration: underline;
+  font-size: 17px;
+}
+b { /* Style pour le lien contact */
+  color: #38b6ff;
+  font-size: 17px;
+  text-decoration: none;
+}
+b:hover { /* Style pour le lien contact au survol */
+  text-decoration: underline;
+  font-size: 17px;
+}
+.merci { /* Style pour la section remerciements */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin: 20px;;
+  color: #000000; /* Couleur du texte */
+}

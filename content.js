@@ -1,7 +1,7 @@
 // Liste blanche des domaines officiels
 const trustedDomains = [
-  "ants.gouv.fr",
   "service-public.fr",
+  "lehavre.fr",
   ".gouv.fr",
 ];
 
@@ -10,26 +10,16 @@ const keywords = [
   "passeport",
   "carte identité",
   "carte d'identité",
-  "carte d’identité",
   "carte grise",
   "acte de naissance",
   "permis de conduire",
   "immatriculation",
-  "ANTS"
+  "ants"
 ];
 
-// Vérification si on est sur une page de recherche Google
-const isGoogleSearchPage =
-  window.location.hostname.includes("google.") &&
-  window.location.pathname === "/search";
-
-// Extraction de la requête
-let isRelevantSearch = true; // Par défaut, on active les bulles sur les autres sites
-if (isGoogleSearchPage) {
-  const searchParams = new URLSearchParams(window.location.search);
-  const query = searchParams.get("q")?.toLowerCase() || "";
-  isRelevantSearch = keywords.some(keyword => query.includes(keyword));
-}
+const searchParams = new URLSearchParams(window.location.search);
+const query = searchParams.get("q")?.toLowerCase() || "";
+const isRelevantSearch = keywords.some(keyword => query.includes(keyword));
 
 // Fonction pour afficher la bulle
 function showTooltip(element, message) {
@@ -42,23 +32,23 @@ if (message.includes("✅")) {
 } else {
   tooltip.style.background = "#faa200ff"; // Jaune pour site non reconnu
 }
+// Styles de la bulle
+    tooltip.style.border = "1px solid #ccc";
+    tooltip.style.padding = "6px 10px";
+    tooltip.style.borderRadius = "6px";
+    tooltip.style.boxShadow = "0 2px 6px rgba(0,0,0,0.2)";
+    tooltip.style.fontSize = "14px";
+    tooltip.style.zIndex = "9999";
+    tooltip.style.pointerEvents = "none";
+    tooltip.style.maxWidth = "250px";
 
-  tooltip.style.border = "1px solid #ccc";
-  tooltip.style.padding = "6px 10px";
-  tooltip.style.borderRadius = "6px";
-  tooltip.style.boxShadow = "0 2px 6px rgba(0,0,0,0.2)";
-  tooltip.style.fontSize = "14px";
-  tooltip.style.zIndex = "9999";
-  tooltip.style.pointerEvents = "none";
-  tooltip.style.maxWidth = "250px";
-
-  const rect = element.getBoundingClientRect();
+const rect = element.getBoundingClientRect();
   tooltip.style.top = `${rect.top + window.scrollY - 40}px`;
   tooltip.style.left = `${rect.left + window.scrollX}px`;
   tooltip.id = "ants-tooltip";
 
-  document.body.appendChild(tooltip);
-}
+    document.body.appendChild(tooltip);
+}  
 
 function removeTooltip() {
   const existing = document.getElementById("ants-tooltip");
@@ -91,8 +81,8 @@ if (isRelevantSearch) {
       ) {
         return;
       }
-
-        const url = new URL(href);
+      
+      const url = new URL(href);
         const domain = url.hostname.toLowerCase();
 
         const isGouvDomain = domain.endsWith(".gouv.fr");
