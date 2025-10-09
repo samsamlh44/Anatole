@@ -1,8 +1,14 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Anatole",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
+  "applications": {
+    "gecko": {
+      "id": "anatole-extension.fr",
+      "strict_min_version": "91.0"
+    }
+  },
   "host_permissions": [
     "https://www.google.com/*",
     "https://www.google.fr/*"],
