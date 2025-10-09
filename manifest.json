@@ -5,7 +5,7 @@
   "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
   "applications": {
     "gecko": {
-      "id": "anatole-extension.fr",
+      "id": "contact@samsamdev.fr",
       "strict_min_version": "91.0"
     }
   },
@@ -13,8 +13,9 @@
     "https://www.google.com/*",
     "https://www.google.fr/*"],
   "background": {
-    "service_worker": "background.js"
-  },
+  "scripts": ["background.js"],
+  "persistent": false
+},
   "homepage_url": "https://www.anatole-extension.fr",
   "content_scripts": [
     {
@@ -26,14 +27,8 @@
     }
   ],
   "web_accessible_resources": [
-  {
-    "resources": ["welcome.html"],
-    "matches": [
-      "https://www.google.com/*",
-      "https://www.google.fr/*"
-    ]
-  }
-], 
+  "welcome.html"
+],
   "action": {
     "default_icon": "icons/logo_anatole_light.png"
   },
