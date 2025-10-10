@@ -1,4 +1,4 @@
-![Licence GPLv3](https://img.shields.io/badge/Licence-GPLv3-blue.svg)
+[![Licence CC BY-NC-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/1/1b/CC_BY-NC-SA.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # 🛡️ Extension Chrome — Vérification des sites administratifs
 
@@ -49,8 +49,9 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 ## Licence
 
-Ce projet est publié sous licence [GPLv3 uniquement](https://www.gnu.org/licenses/gpl-3.0.html).  
-Consultez le fichier [`LICENSE.md`](./LICENSE.md) pour plus de détails.
+> Ce projet est publié sous la licence Creative Commons BY-NC-SA 4.0.  
+Le texte juridique officiel, en anglais, est disponible [ici](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).\
+La [traduction française](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr) est fournie à titre informatif.
 
 ## 👨‍💻 Auteur
 
