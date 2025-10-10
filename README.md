@@ -1,3 +1,5 @@
+![Licence GPLv3](https://img.shields.io/badge/Licence-GPLv3-blue.svg)
+
 # 🛡️ Extension Chrome — Vérification des sites administratifs
 
 Cette extension Chrome a pour objectif de protéger les utilisateurs contre les sites non officiels qui proposent des démarches administratives (passeport, carte d'identité, carte grise, acte de naissance) en facturant des frais injustifiés.
@@ -42,14 +44,18 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 ## 📌 À venir
 
-- Badge visuel à côté des liens officiels
-- Option de signalement de sites suspects
+- Déploiement de l'extension sur les principaux navigateurs : Mozilla Firefox et Microsoft Edge (Brave déjà fonctionnel puisqu'il utilise le Chrome Web Store)
+- Fonctionnement de l'extension sur d'autres moteurs de recherche : Bing, Yahoo, DuckDuckGo
+
+## Licence
+
+Ce projet est publié sous licence [GPLv3 uniquement](https://www.gnu.org/licenses/gpl-3.0.html).  
+Consultez le fichier [`LICENSE.md`](./LICENSE.md) pour plus de détails.
 
 ## 👨‍💻 Auteur
 
-Développé par Samuel BOULLARD, passionné par la transparence numérique et la protection des citoyens face aux arnaques administratives.
+Développé par Sam Sam, développeur indépendant et agent d'état civil.
 
+Ce projet est né d'un constat, celui que les usagers sont confrontés régulièrement à des sites tiers leur facturant des frais supplémentaires lors de leurs démarches administratives en ligne.
 
-
----
-
+[Contact](mailto:contact@samsamdev.fr) | [Site officiel](https://www.anatole-extension.fr)
