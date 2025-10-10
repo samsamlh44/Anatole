@@ -69,6 +69,13 @@ _Notes: Vous n'êtes pas dans l'obligation de respecter la licence pour les él�
 
 _Aucune garantie n'est donnée. Il se peut que la licence ne vous donne pas toutes les permissions nécessaires pour votre utilisation. Par exemple, certains droits comme les droits moraux, le droit des données personnelles et le droit à l'image sont susceptibles de limiter votre utilisation._
 
+### Historique de la licence
+
+Ce projet était initialement publié sous licence **GPLv3**.  
+Depuis octobre 2025, il est désormais sous licence **Creative Commons BY-NC-SA 4.0**.
+
+Ce changement reflète une volonté de renforcer les **limites d’usage commercial** tout en maintenant l’**accessibilité du code** pour les utilisateurs citoyens.
+
 ## 👨‍💻 Auteur
 
 Développé par Sam Sam, développeur indépendant et agent d'état civil.
