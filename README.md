@@ -1,4 +1,4 @@
-[![Licence CC BY-NC-SA 4.0](https://upload.wikimedia.org/wikipedia/commons/1/1b/CC_BY-NC-SA.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Licence CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # 🛡️ Extension Chrome — Vérification des sites administratifs
 
