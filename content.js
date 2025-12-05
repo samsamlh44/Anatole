@@ -14,7 +14,7 @@ function isTrustedDomain(url) {
   }
 
 // Vérifie le motif ville-[nom].fr
-  const mairiePattern = /^https?:\/\/(www\.)?ville-[a-zA-Z\-]+\.fr/;
+  const mairiePattern = /^https?:\/\/(?:www\.)?ville-[\p{L}\p{N}-]+\.fr(?:\/|$)/iu;
   if (mairiePattern.test(url)) {
     return true;
   }
