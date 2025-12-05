@@ -7,12 +7,13 @@ const trustedDomains = [
 
 // Fonction de vérification
 function isTrustedDomain(url) {
-  // Vérifie la liste fixe
+  
+// Vérifie la liste fixe
   if (trustedDomains.some(domain => url.includes(domain))) {
     return true;
   }
 
-  // Vérifie le motif ville-[nom].fr
+// Vérifie le motif ville-[nom].fr
   const mairiePattern = /^https?:\/\/(www\.)?ville-[a-zA-Z\-]+\.fr/;
   if (mairiePattern.test(url)) {
     return true;
