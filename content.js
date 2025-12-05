@@ -3,7 +3,7 @@ const trustedDomains = [
   "service-public.fr",
   "lehavre.fr",
   ".gouv.fr",
-];
+
 
 // Fonction de vérification
 function isTrustedDomain(url) {
@@ -21,6 +21,7 @@ function isTrustedDomain(url) {
 
   return false;
 }
+];
 
 // Mots-clés de recherche administrative
 const keywords = [
