@@ -1,6 +1,6 @@
 // Liste blanche des domaines officiels
 const trustedDomains = [
-  "ville-fecamp.fr",
+  "service-public.fr",
   "lehavre.fr",
   ".gouv.fr",
 ];
