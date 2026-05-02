@@ -17,10 +17,8 @@
       "16": "icons/icon-light-16.png",
       "48": "icons/icon-light-48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxSh/cNK6cjphqzekeBCM4nHz1Si5253znP0hblzws4y7HhwRkhcQ7A5wkjUEBFyogfrtN7BRSVs9U7RbSfzv600dHTuM3Td/LjXavH52qQOx7toU85uy5re2ME7JZUA7/AcQCdQcHUt2TYUA6o9h8i1ScRyWwLqQinfglQJtWnd3ycmAdwQICdL+cZ50zf59YDeb7SuYZlxpM49JxibLL5ZRPVuIb8fGrAEyd+Fgt02diRjQOKpmvumZSmSi2Jj7kVxWk2m4+d9Y6o0zBR155V+qUdE6KY1P/Ua6k+UHvMPK4yazhMPo4X3RPWJOhcfLz31Dca8tju/7Xn/HkkI8OwIDAQAB",
    "manifest_version": 3,
    "name": "Anatole",
-   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
    "version": "1.1.1",
    "web_accessible_resources": [ {
       "matches": [ "https://www.google.com/*", "https://www.google.fr/*" ],
