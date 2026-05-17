@@ -5,7 +5,9 @@
   "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
   "host_permissions": [
     "https://www.google.com/*",
-    "https://www.google.fr/*"],
+    "https://www.google.fr/*",
+    "https://www.ecosia.org/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -14,7 +16,8 @@
     {
       "matches": [
         "https://www.google.com/*",
-        "https://www.google.fr/*"
+        "https://www.google.fr/*",
+        "https://www.ecosia.org/*"
       ],
       "js": ["content.js"]
     }
@@ -24,7 +27,8 @@
     "resources": ["welcome.html"],
     "matches": [
       "https://www.google.com/*",
-      "https://www.google.fr/*"
+      "https://www.google.fr/*",
+      "https://www.ecosia.org/*"
     ]
   }
 ], 
