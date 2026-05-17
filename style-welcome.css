@@ -47,6 +47,13 @@ h3 { /* Style pour le sous-titre */
   margin-bottom: -10px;
 }
 
+.changelog {
+  text-align: cen;
+  list-style-position: inside;
+  display: inline-block;
+  margin: 0 auto;
+}
+
 /* Style des liens officiels */
     .gouv-links {
     margin-top: 1.875rem;
