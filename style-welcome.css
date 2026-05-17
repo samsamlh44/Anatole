@@ -54,6 +54,7 @@ h3 { /* Style pour le sous-titre */
     margin-inline-start: 0rem;
     line-height: 1;
     text-align: center;
+    list-style: none;
     }
     .gouv-links a {
         color: #000203;
