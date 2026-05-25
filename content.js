@@ -1,6 +1,6 @@
 // Liste blanche des domaines officiels
 const trustedDomains = [
-  "service-public.fr",
+  "ville-fecamp.fr",
   "lehavre.fr",
   ".gouv.fr",
 ];
@@ -14,7 +14,9 @@ const keywords = [
   "acte de naissance",
   "permis de conduire",
   "immatriculation",
-  "ants"
+  "ants",
+  "prédemande",
+  "predemande"
 ];
 
 const searchParams = new URLSearchParams(window.location.search);

@@ -7,11 +7,11 @@
    },
    "content_scripts": [ {
       "js": [ "content.js" ],
-      "matches": [ "https://www.google.com/*", "https://www.google.fr/*" ]
+      "matches": [ "https://www.google.com/*", "https://www.google.fr/*", "https://www.ecosia.org/*" ]
    } ],
    "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
    "homepage_url": "https://www.anatole-extension.fr",
-   "host_permissions": [ "https://www.google.com/*", "https://www.google.fr/*" ],
+   "host_permissions": [ "https://www.google.com/*", "https://www.google.fr/*", "https://www.ecosia.org/*" ],
    "icons": {
       "128": "icons/icon-light-128.png",
       "16": "icons/icon-light-16.png",
@@ -19,9 +19,9 @@
    },
    "manifest_version": 3,
    "name": "Anatole",
-   "version": "1.1.1",
+   "version": "1.2.0",
    "web_accessible_resources": [ {
-      "matches": [ "https://www.google.com/*", "https://www.google.fr/*" ],
+      "matches": [ "https://www.google.com/*", "https://www.google.fr/*", "https://www.ecosia.org/*" ],
       "resources": [ "welcome.html" ]
    } ]
 }
