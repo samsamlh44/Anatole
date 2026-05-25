@@ -1,11 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Anatole",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Informe l'utilisateur si le lien survolé est un site officiel lorsqu'il effectue une recherche pour des démarches administratives.",
   "host_permissions": [
     "https://www.google.com/*",
-    "https://www.google.fr/*"],
+    "https://www.google.fr/*",
+    "https://www.ecosia.org/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -14,17 +16,19 @@
     {
       "matches": [
         "https://www.google.com/*",
-        "https://www.google.fr/*"
+        "https://www.google.fr/*",
+        "https://www.ecosia.org/*"
       ],
       "js": ["content.js"]
     }
   ],
   "web_accessible_resources": [
   {
-    "resources": ["welcome.html"],
+    "resources": ["welcome.html", "changelog.html"],
     "matches": [
       "https://www.google.com/*",
-      "https://www.google.fr/*"
+      "https://www.google.fr/*",
+      "https://www.ecosia.org/*"
     ]
   }
 ], 
