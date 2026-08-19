@@ -16,7 +16,8 @@ const keywords = [
   "immatriculation",
   "ants",
   "prédemande",
-  "predemande"
+  "predemande",
+  "cni"
 ];
 
 const searchParams = new URLSearchParams(window.location.search);
