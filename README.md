@@ -1,12 +1,12 @@
-[![Licence CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+<img src="assets/logo.pngpng" alt="Logo Anatole" height="38"> [![Licence CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-# 🛡️ Extension Chrome — Vérification des sites administratifs
+# 🛡️ Extension Anatole — Vérification des sites administratifs
 
-Cette extension Chrome a pour objectif de protéger les utilisateurs contre les sites non officiels qui proposent des démarches administratives (passeport, carte d'identité, carte grise, acte de naissance) en facturant des frais injustifiés.
+Cette extension de navigateur a pour objectif de protéger les utilisateurs contre les sites non officiels qui proposent des démarches administratives (passeport, carte d'identité, carte grise, acte de naissance) en facturant des frais injustifiés.
 
 ## 🌿 Structure du dépôt
 
-- La branche main contient uniquement le README et la licence.
+- La branche main contient uniquement le README, la licence et le logo.
 
 - Chaque version de l'extension possède deux branches : une version publiée et une version test.
 
@@ -117,4 +117,4 @@ Développé par Samuel BOULLARD.
 
 Ce projet est né d'un constat, celui que les usagers sont confrontés régulièrement à des sites tiers leur facturant des frais supplémentaires lors de leurs démarches administratives en ligne.
 
-[Contact](mailto:kracknetlab@gmail.com) | [Site officiel](https://www.anatole-extension.fr)
+[Contact](mailto:contact@samsamdev.fr) | [Site officiel](https://www.anatole-extension.fr)
