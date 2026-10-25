@@ -10,24 +10,26 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 - ✅ Si le lien mène vers un site officiel (ex. `ants.gouv.fr`, `service-public.fr`), la bulle indique que le site est reconnu et prend la couleur verte.
 - ⚠️ Si le lien mène vers un site non officiel, la bulle avertit l'utilisateur du risque de frais supplémentaires et prend la couleur jaune.
+- Une page de présentation s'affiche lors de la première installation. Une page annonçant les modifications (changelog) s'affiche lors des mises à jour.
 
 ## 🔍 Détection intelligente
 
 - Activation uniquement sur les pages de recherche Google contenant des mots-clés comme :
-  - `passeport`
-  - `carte d'identité`
-  - `carte grise`
-  - `acte de naissance`
-  - `permis de conduire`
-  - `immatriculation`
-  - `ANTS`
+  - "passeport",
+  - "carte identité",
+  - "carte d'identité",
+  - "carte grise",
+  - "acte de naissance",
+  - "permis de conduire",
+  - "immatriculation",
+  - "ANTS"
 - Filtrage des liens internes à Google (images, actualités, pagination, etc.) et informatifs (ex. Wikipedia).
 
 ## 🧠 Technologies utilisées
 
 - JavaScript (vanilla)
 - API DOM pour l'injection dynamique
-- Manifest V3 (Chrome Extension)
+- Manifest V3 pour Google Chrome et Microsoft Edge, Manifest V2 pour Mozilla Firefox
 
 ## 📦 Installation manuelle
 
@@ -44,8 +46,8 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 ## 📌 À venir
 
-- Déploiement de l'extension sur les principaux navigateurs : Mozilla Firefox et Microsoft Edge (Brave déjà fonctionnel puisqu'il utilise le Chrome Web Store)
 - Fonctionnement de l'extension sur d'autres moteurs de recherche : Bing, Yahoo, DuckDuckGo
+- Mises à jour des mots-clés et domaines de confiance
 
 ## Licence
 
@@ -78,7 +80,7 @@ Ce changement reflète une volonté de renforcer les **limites d’usage commerc
 
 ## 👨‍💻 Auteur
 
-Développé par Sam Sam, développeur indépendant et agent d'état civil.
+Développé par Samuel BOULLARD.
 
 Ce projet est né d'un constat, celui que les usagers sont confrontés régulièrement à des sites tiers leur facturant des frais supplémentaires lors de leurs démarches administratives en ligne.
 
