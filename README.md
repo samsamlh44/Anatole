@@ -84,4 +84,4 @@ Développé par Samuel BOULLARD.
 
 Ce projet est né d'un constat, celui que les usagers sont confrontés régulièrement à des sites tiers leur facturant des frais supplémentaires lors de leurs démarches administratives en ligne.
 
-[Contact](mailto:contact@samsamdev.fr) | [Site officiel](https://www.anatole-extension.fr)
+[Contact](mailto:kracknetlab@gmail.com) | [Site officiel](https://www.anatole-extension.fr)

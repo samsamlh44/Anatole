@@ -14,7 +14,9 @@ const keywords = [
   "acte de naissance",
   "permis de conduire",
   "immatriculation",
-  "ants"
+  "ants",
+  "prédemande",
+  "predemande"
 ];
 
 const searchParams = new URLSearchParams(window.location.search);
