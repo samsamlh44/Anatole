@@ -4,6 +4,20 @@
 
 Cette extension Chrome a pour objectif de protéger les utilisateurs contre les sites non officiels qui proposent des démarches administratives (passeport, carte d'identité, carte grise, acte de naissance) en facturant des frais injustifiés.
 
+## 🌿 Structure du dépôt
+
+- La branche main contient uniquement le README et la licence.
+
+- Chaque version de l'extension possède deux branches : une version publiée et une version test.
+
+| Navigateur | Version publiée | Version test |
+|------------|-----------------|--------------|
+| Chrome     | `chrome`        | `chrome-test` |
+| Firefox    | `firefox`       | `firefox-test` |
+| Edge       | `edge`          | `edge-test` |
+
+- D'autres branches, communes à toutes les versions, servent au développement de features particulières.
+
 ## 🎯 Fonctionnalité principale
 
 Lorsqu'un utilisateur effectue une recherche Google liée à une démarche administrative, l'extension affiche une **bulle d'information** au survol des liens présents dans les résultats :
@@ -33,11 +47,30 @@ Lorsqu'un utilisateur effectue une recherche Google liée à une démarche admin
 
 ## 📦 Installation manuelle
 
-1. Cloner ce dépôt ou télécharger les fichiers.
-2. Ouvrir `chrome://extensions/` dans votre navigateur.
-3. Activer le **mode développeur**.
-4. Cliquer sur **"Charger l’extension non empaquetée"** et sélectionner le dossier du projet.
-5. L’extension est maintenant active.
+1. Cloner la branche correspondante à votre navigateur (ou télécharger ses fichiers depuis GitHub), par exemple pour Chrome :
+   ```bash
+   git clone -b chrome https://github.com/samsamlh44/anatole.git
+   ```
+   Remplacer `chrome` par `firefox` ou `edge` selon votre navigateur.
+
+2. Charger l'extension :
+
+   **Chrome**
+   - Ouvrir `chrome://extensions/`
+   - Activer le **mode développeur**
+   - Cliquer sur **« Charger l'extension non empaquetée »** et sélectionner le dossier du projet
+
+   **Edge**
+   - Ouvrir `edge://extensions/`
+   - Activer le **mode développeur**
+   - Cliquer sur **« Charger l'extension décompressée »** et sélectionner le dossier du projet
+
+   **Firefox**
+   - Ouvrir `about:debugging#/runtime/this-firefox`
+   - Cliquer sur **« Charger un module complémentaire temporaire »**
+   - Sélectionner le fichier `manifest.json` du dossier du projet
+
+3. L'extension est maintenant active.
 
 ## 🛠️ Personnalisation
 
