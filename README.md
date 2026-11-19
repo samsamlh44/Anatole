@@ -113,7 +113,7 @@ Ce changement reflète une volonté de renforcer les **limites d’usage commerc
 
 ## 👨‍💻 Auteur
 
-Développé par Samuel BOULLARD.
+Développé par samsamlh44.
 
 Ce projet est né d'un constat, celui que les usagers sont confrontés régulièrement à des sites tiers leur facturant des frais supplémentaires lors de leurs démarches administratives en ligne.
 
